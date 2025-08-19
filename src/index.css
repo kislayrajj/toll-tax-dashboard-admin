@@ -1,0 +1,25 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Form element styles to ensure text visibility */
+input, textarea, select {
+  color: #374151; /* gray-700 */
+}
+
+input::placeholder, textarea::placeholder, select::placeholder {
+  color: #9CA3AF; /* gray-400 */
+}
+
+@import "tailwindcss";
