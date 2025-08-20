@@ -47,7 +47,7 @@ const Transactions = () => {
         <h2 className="text-2xl font-bold text-gray-800">Transaction Log</h2>
 
         {/* 🔄 Refresh Button */}
-        <button
+      {/*   <button
           onClick={refetch}
           disabled={loading}
           className={`px-4 py-2 text-sm font-medium rounded-lg shadow transition ${
@@ -56,7 +56,7 @@ const Transactions = () => {
               : "bg-slate-600 text-white cursor-pointer hover:bg-blue-700"
           }`}>
           {loading ? "Refreshing..." : "Refresh"}
-        </button>
+        </button>*/}
       </div>
 
       {loading && <Spinner />}
