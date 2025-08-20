@@ -3,7 +3,8 @@ import { useQuery } from '@tanstack/react-query';
 // API Configuration
 const API_CONFIG = {
   // BASE_URL: "https://toll-tax-server.onrender.com/api",
-  BASE_URL: "http://localhost:8000/api",
+  // BASE_URL: "http://localhost:8000/api",
+  BASE_URL: "https://toll-tax-server.onrender.com/api",
 };
 
 /**

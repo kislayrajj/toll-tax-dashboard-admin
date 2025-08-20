@@ -50,3 +50,20 @@ export const DeleteIcon = ({ className = 'w-5 h-5' }) => (
         <path strokeLinecap="round" strokeLinejoin="round" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
     </svg>
 );
+
+export const TransactionIcon = () => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    className="h-6 w-6 mr-3"
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke="currentColor"
+  >
+    <path
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      d="M17 9l4-4m0 0l-4-4m4 4H7a4 4 0 00-4 4v1m0 6l4 4m0 0l-4 4m4-4h10a4 4 0 004-4v-1"
+    />
+  </svg>
+);

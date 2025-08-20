@@ -6,6 +6,7 @@ import Dashboard from './pages/Dashboard';
 import Vehicles from './pages/Vehicles';
 import TollBooths from './pages/TollBooths';
 import IotDevices from './pages/IotDevices';
+import Transactions from './pages/Transaction';
 
 /**
  * The root component of the application.
@@ -52,6 +53,7 @@ export default function App() {
                         <Route path="/vehicles" element={<Vehicles />} />
                         <Route path="/toll-booths" element={<TollBooths />} />
                         <Route path="/iot-devices" element={<IotDevices />} />
+                        <Route path="/transactions" element={<Transactions />} />
                     </Routes>
                 </main>
             </div>
