@@ -7,6 +7,7 @@ import {
   TollBoothIcon,
   IotDeviceIcon,
   TransactionIcon,
+  DisputeIcon, // <-- 1. Import the new icon
 } from "./Icons";
 
 const Sidebar = ({ isOpen, setIsOpen }) => {
@@ -18,6 +19,8 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
     { name: "Toll Booths", path: "/toll-booths", icon: <TollBoothIcon /> },
     { name: "IoT Devices", path: "/iot-devices", icon: <IotDeviceIcon /> },
     { name: "Transactions", path: "/transactions", icon: <TransactionIcon /> },
+    // 2. Add the new nav item for Disputes here
+    { name: "Disputes", path: "/disputes", icon: <DisputeIcon /> },
   ];
 
   return (
@@ -67,7 +70,7 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
                       : "hover:bg-gray-700"
                   }`}>
                   {item.icon}
-                  <span className="font-medium">{item.name}</span>
+                  <span className="font-medium ml-3">{item.name}</span>
                 </Link>
               </li>
             ))}
